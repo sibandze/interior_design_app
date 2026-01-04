@@ -2,7 +2,7 @@ import os
 from flask import Flask, request
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
-from services.ai_service import AIService
+from services.ai_services import AIService
 
 # --- Setup Flask ---
 app = Flask(__name__)
