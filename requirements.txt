@@ -1,4 +1,6 @@
-python-telegram-bot
+flask
+python-telegram-bot[webhook]
+hypercorn
 huggingface_hub
 Pillow
 python-dotenv
